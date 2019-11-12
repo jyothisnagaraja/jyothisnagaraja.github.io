@@ -87,11 +87,12 @@
             attribution: '&copy; <a href="http://osm.org/copyright">OpenStreetMap</a> contributors'
         }).addTo(map);
         // Target's GPS coordinates.
-        var target = L.latLng('13.0920173', '77.6023004');
+        // var target = L.latLng('13.0920173', '77.6023004');
+        var target = L.latLng('13.0983864', '77.5776024');
         // Set map's center to target with zoom 14.
         map.setView(target, 14);
         // Place a marker on the same location.
-        L.marker(target).addTo(map);
+        L.marker(target).addTo(map).bindPopup("<b>Dr. Jyothi S N</b><br/>Yashoda Dental Clinic<br/>972, 16th B Cross Rd, MIG Sector B,<br/>Yelahanka Satellite Town,<br/>Bengaluru, Karnataka 560064").openPopup();;
     </script>
 
 <!--    <section class="hero-wrap hero-wrap-2" style="background-image: url('images/bg_1.jpg');" data-stellar-background-ratio="0.5">-->

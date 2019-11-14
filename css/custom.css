@@ -2,3 +2,10 @@
 .navbar-brand span {
     text-align: right;
 }
+
+@media (max-width: 991.98px) {
+    body .ftco-navbar-light .navbar-nav {
+        padding-left: 12px;
+        padding-bottom: 0;
+    }
+}

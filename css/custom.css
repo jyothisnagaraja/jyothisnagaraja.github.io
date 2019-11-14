@@ -8,4 +8,7 @@
         padding-left: 12px;
         padding-bottom: 0;
     }
+    body .ftco-navbar-light .navbar-nav li:first-child {
+        padding-top: 10px;
+    }
 }

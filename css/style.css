@@ -593,8 +593,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #services .box {
-  padding: 30px;
-  margin-bottom: 30px;
+  padding: 20px;
+  margin-bottom: 10px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
   background: #fff;
   transition: 0.4s;
@@ -649,6 +649,18 @@ body.mobile-nav-active #mobile-nav-toggle {
 #services .box p:hover {
   overflow: unset;
   height: fit-content;
+}
+#services .box .description .treatment-detail-img {
+  width: auto;
+  padding-top: 10px;
+  height: 200px;
+}
+#services .box .description .treatment-detail-img:hover {
+
+}
+#services .box p:hover span {
+  width: 70%;
+  display: inline-block;
 }
 
 /* Clients Section
@@ -1035,11 +1047,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
+  font-size: 10px;
 }
 
 #footer .credits {
   text-align: center;
-  font-size: 13px;
+  font-size: 10px;
   color: #555;
 }
 

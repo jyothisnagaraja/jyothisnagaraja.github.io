@@ -95,6 +95,10 @@ h6 {
   color: #50d8af;
   padding: 4px;
 }
+#topbar .social-links i {
+  color: #0c2e8a;
+  padding: 4px;
+}
 
 #topbar .contact-info .fa-phone {
   /*padding-left: 20px;*/
@@ -111,6 +115,9 @@ h6 {
 }
 
 #topbar .social-links a:hover {
+  color: #50d8af;
+}
+#topbar .social-links a:hover i {
   color: #50d8af;
 }
 
@@ -594,7 +601,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #services .box {
   padding: 30px;
-  margin-bottom: 5px;
+  margin-bottom: 10px;
   box-shadow: 10px 10px 15px rgba(73, 78, 92, 0.1);
   background: #fff;
   transition: 0.4s;

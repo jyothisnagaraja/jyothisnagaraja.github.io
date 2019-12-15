@@ -796,8 +796,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 #testimonials .testimonial-item h3 {
   font-size: 18px;
   font-weight: bold;
-  margin: 10px 0 5px 0;
-  color: #111;
+  margin: 20px 0 5px 0;
+  color: #0c2e8a;
+  float: right;
 }
 
 #testimonials .testimonial-item h4 {

@@ -1061,6 +1061,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   padding-top: 30px;
   font-size: 10px;
 }
+#footer .copyright strong {
+  font-weight: normal;
+}
 
 #footer .credits {
   text-align: center;
@@ -1069,7 +1072,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .credits a {
-  color: #0c2e8a;
+  color: #555;
 }
 
 @media (min-width: 768px) {

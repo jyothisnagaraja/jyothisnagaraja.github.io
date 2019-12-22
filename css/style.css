@@ -1172,3 +1172,10 @@ body.mobile-nav-active #mobile-nav-toggle {
     margin-top: 20px;
   }
 }
+
+#header-sticky-wrapper header {
+  z-index: 1000 !important;
+}
+#osm-map .leaflet-top.leaflet-left {
+  z-index: 999 !important;
+}

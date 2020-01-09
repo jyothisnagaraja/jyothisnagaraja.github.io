@@ -659,7 +659,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 #services .box p:hover {
   overflow: unset;
-  height: fit-content;
+  height: auto;
 }
 #services .box .description .treatment-detail-img {
   width: auto;

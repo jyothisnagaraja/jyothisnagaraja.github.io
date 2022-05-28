@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  jyothisnagaraja_web:
+    build: ./docker-utils/web/
+    ports:
+      - "8087:443"
+    hostname: jyothisnagaraja.local
+    volumes:
+      - ./:/var/www/html

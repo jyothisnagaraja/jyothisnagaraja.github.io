@@ -1059,7 +1059,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #footer .copyright {
   text-align: center;
   padding-top: 30px;
-  font-size: 10px;
+  font-size: 8px;
 }
 #footer .copyright strong {
   font-weight: normal;
@@ -1067,7 +1067,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 #footer .credits {
   text-align: center;
-  font-size: 10px;
+  font-size: 8px;
   color: #555;
 }
 
